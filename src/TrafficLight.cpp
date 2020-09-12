@@ -5,17 +5,20 @@
 /* Implementation of class "MessageQueue" */
 
 
-//template <typename T>
-TrafficLightPhase MessageQueue::receive()
+template <typename T>
+T MessageQueue<T>::receive()
 {
     // FP.5a : The method receive should use std::unique_lock<std::mutex> and _condition.wait() 
     // to wait for and receive new messages and pull them from the queue using move semantics. 
     // The received object should then be returned by the receive function. 
 }
 
-//template <typename T>
-void MessageQueue::send(TrafficLightPhase &&current_phase)
-{
+template <typename T>
+void MessageQueue<T>::send(T &&current_phase)
+{   
+    std::lock_guard<std::mutex> ulock(_mutex);
+    _queue.emplace_back(std::move(current_phase));
+    _cond.notify_one();
     // FP.4a : The method send should use the mechanisms std::lock_guard<std::mutex> 
     // as well as _condition.notify_one() to add a new message to the queue and afterwards send a notification.
 }
@@ -67,6 +70,7 @@ void TrafficLight::cycleThroughPhases()
             {
                 _currentPhase == TrafficLightPhase::red;
             }
+            _messageQueue.send(std::move(_currentPhase));
         }
         // sleep at every iteration to reduce CPU usage
         std::this_thread::sleep_for(std::chrono::milliseconds(1));
