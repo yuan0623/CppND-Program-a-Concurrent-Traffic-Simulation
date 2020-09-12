@@ -64,10 +64,10 @@ RM = /home/yuan/Downloads/cmake-3.18.0-rc1-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation
+CMAKE_SOURCE_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build
+CMAKE_BINARY_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/traffic_simulation.dir/clean
 CMakeFiles/traffic_simulation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target traffic_simulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target traffic_simulation"
 .PHONY : CMakeFiles/traffic_simulation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/traffic_simulation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/traffic_simulation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles 0
 .PHONY : CMakeFiles/traffic_simulation.dir/rule
 
 # Convenience name for target.

@@ -63,10 +63,10 @@ RM = /home/yuan/Downloads/cmake-3.18.0-rc1-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation
+CMAKE_SOURCE_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build
+CMAKE_BINARY_DIR = /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/traffic_simulation.dir/depend.make
@@ -79,94 +79,94 @@ include CMakeFiles/traffic_simulation.dir/flags.make
 
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: ../src/Graphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Graphics.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Graphics.cpp > CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Graphics.cpp > CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Graphics.cpp -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Graphics.cpp -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o: ../src/Intersection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Intersection.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.cpp > CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Intersection.cpp > CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.cpp -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Intersection.cpp -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/Street.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Street.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Street.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Street.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Street.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.cpp > CMakeFiles/traffic_simulation.dir/src/Street.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Street.cpp > CMakeFiles/traffic_simulation.dir/src/Street.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Street.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.cpp -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Street.cpp -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: ../src/TrafficLight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficLight.cpp
 
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficLight.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficLight.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: ../src/TrafficObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficObject.cpp
 
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficObject.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficObject.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o: ../src/TrafficSimulator-Final.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficSimulator-Final.cpp
 
 CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficSimulator-Final.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/TrafficSimulator-Final.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o -c /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Vehicle.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.cpp > CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Vehicle.cpp > CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.cpp -o CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/src/Vehicle.cpp -o CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s
 
 # Object files for target traffic_simulation
 traffic_simulation_OBJECTS = \
@@ -240,7 +240,7 @@ traffic_simulation: /usr/local/lib/libopencv_photo.so.4.3.0
 traffic_simulation: /usr/local/lib/libopencv_imgproc.so.4.3.0
 traffic_simulation: /usr/local/lib/libopencv_core.so.4.3.0
 traffic_simulation: CMakeFiles/traffic_simulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable traffic_simulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable traffic_simulation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/traffic_simulation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -253,6 +253,6 @@ CMakeFiles/traffic_simulation.dir/clean:
 .PHONY : CMakeFiles/traffic_simulation.dir/clean
 
 CMakeFiles/traffic_simulation.dir/depend:
-	cd /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build /home/yuan/Dropbox/Udacity_ND/Cpp/CppND-Program-a-Concurrent-Traffic-Simulation_Yuan/build/CMakeFiles/traffic_simulation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traffic_simulation.dir/depend
 

@@ -71,10 +71,15 @@ void TrafficLight::cycleThroughPhases()
     std::chrono::time_point<std::chrono::system_clock> lastUpdate;
     // init stop watch
     lastUpdate = std::chrono::system_clock::now();
-    double cycleDuration = 4000; // duration of a single simulation cycle in ms
+    std::random_device ran_dev;
+    std::mt19937 gen(ran_dev());
+    std::uniform_int_distribution<> distr(4000, 6000);
+    auto cycleDuration = std::chrono::milliseconds(distr(gen));
     while(true){
         // compute time difference to stop watch
-         long timeSinceLastUpdate = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - lastUpdate).count();
+        auto timeSinceLastUpdate = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - lastUpdate);
+        //double cycleDuration = 4000; // duration of a single simulation cycle in ms
+        
         
         if (timeSinceLastUpdate>=cycleDuration)
         {   
@@ -91,6 +96,7 @@ void TrafficLight::cycleThroughPhases()
             }
             _messageQueue.send(std::move(_currentPhase));
             lastUpdate = std::chrono::system_clock::now();
+            auto cycleDuration = std::chrono::milliseconds(distr(gen));
         }
         // sleep at every iteration to reduce CPU usage
         std::this_thread::sleep_for(std::chrono::milliseconds(1));
