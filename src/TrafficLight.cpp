@@ -75,17 +75,22 @@ void TrafficLight::cycleThroughPhases()
     while(true){
         // compute time difference to stop watch
          long timeSinceLastUpdate = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - lastUpdate).count();
+        
         if (timeSinceLastUpdate>=cycleDuration)
         {   
+           
             if (_currentPhase == TrafficLightPhase::red)
             {
-                _currentPhase == TrafficLightPhase::green;
+                _currentPhase = TrafficLightPhase::green;
+                 //std::cout<< "green"<<std::endl;
             }
             else
             {
-                _currentPhase == TrafficLightPhase::red;
+                _currentPhase = TrafficLightPhase::red;
+                //std::cout<< "red"<<std::endl;
             }
             _messageQueue.send(std::move(_currentPhase));
+            lastUpdate = std::chrono::system_clock::now();
         }
         // sleep at every iteration to reduce CPU usage
         std::this_thread::sleep_for(std::chrono::milliseconds(1));
